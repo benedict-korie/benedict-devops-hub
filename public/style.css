@@ -236,3 +236,40 @@ footer a {
   color: #58a6ff;
   text-decoration: none;
 }
+/* FEATURED CARD */
+.card.featured {
+  border-color: #58a6ff;
+  background: #0d1f36;
+  position: relative;
+}
+.badge {
+  display: inline-block;
+  background: #58a6ff;
+  color: #0d1117;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.card-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.btn-secondary {
+  display: inline-block;
+  color: #3fb950;
+  border: 1px solid #3fb950;
+  padding: 7px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+.btn-secondary:hover {
+  background: #3fb950;
+  color: #0d1117;
+}

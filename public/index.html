@@ -1,5 +1,4 @@
-Good. Paste this into index.html and save with Ctrl+S:
-html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -25,13 +24,17 @@ html<!DOCTYPE html>
       <h2>Projects</h2>
       <div class="cards">
 
-        <div class="card">
-          <h3>gh-actions-demo</h3>
-          <p>Production-grade CI/CD pipeline with GitHub Actions — Trivy security scanning, Terraform validation on PRs, Docker Hub image push and automated deployment.</p>
+        <div class="card featured">
+          <span class="badge">Featured</span>
+          <h3>devops-platform</h3>
+          <p>Production-grade DevOps platform — Node.js API deployed to AWS EKS via a fully automated GitHub Actions pipeline. Terraform infrastructure, OIDC auth, rolling deployments, Prometheus metrics, and a live AWS Load Balancer endpoint.</p>
           <div class="tags">
-            <span>GitHub Actions</span><span>Docker</span><span>Trivy</span><span>Terraform</span>
+            <span>AWS EKS</span><span>Terraform</span><span>GitHub Actions</span><span>Docker</span><span>Kubernetes</span><span>Prometheus</span>
           </div>
-          <a href="https://github.com/Joshuche22/gh-actions-demo" target="_blank" class="btn">View Repo</a>
+          <div class="card-links">
+            <a href="https://github.com/Joshuche22/devops-platform" target="_blank" class="btn">View Repo</a>
+            <a href="https://www.loom.com/share/5e6d409ccca244a6860e035de69ed058" target="_blank" class="btn btn-secondary">Watch Demo</a>
+          </div>
         </div>
 
         <div class="card">
@@ -40,7 +43,20 @@ html<!DOCTYPE html>
           <div class="tags">
             <span>AWS</span><span>EKS</span><span>Terraform</span><span>Prometheus</span><span>Grafana</span>
           </div>
-          <a href="https://github.com/Joshuche22/aws-eks-platform" target="_blank" class="btn">View Repo</a>
+          <div class="card-links">
+            <a href="https://github.com/Joshuche22/aws-eks-platform" target="_blank" class="btn">View Repo</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>gh-actions-demo</h3>
+          <p>Production-grade CI/CD pipeline with GitHub Actions — Trivy security scanning, Terraform validation on PRs, Docker Hub image push and automated deployment.</p>
+          <div class="tags">
+            <span>GitHub Actions</span><span>Docker</span><span>Trivy</span><span>Terraform</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Joshuche22/gh-actions-demo" target="_blank" class="btn">View Repo</a>
+          </div>
         </div>
 
         <div class="card">
@@ -49,7 +65,9 @@ html<!DOCTYPE html>
           <div class="tags">
             <span>Node.js</span><span>Docker</span><span>GitHub Actions</span><span>Render</span>
           </div>
-          <a href="https://github.com/Joshuche22/benedict-devops-hub" target="_blank" class="btn">View Repo</a>
+          <div class="card-links">
+            <a href="https://github.com/Joshuche22/benedict-devops-hub" target="_blank" class="btn">View Repo</a>
+          </div>
         </div>
 
       </div>
@@ -65,7 +83,6 @@ html<!DOCTYPE html>
   <footer>
     <p>Benedict Korie · DevOps & Cloud Engineer · London · <a href="mailto:benedictkorie785@gmail.com">benedictkorie785@gmail.com</a></p>
   </footer>
-
   <script src="app.js"></script>
 </body>
 </html>
