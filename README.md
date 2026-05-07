@@ -61,3 +61,13 @@ benedict-devops-hub/
 
 **Benedict Korie** — DevOps & Cloud Engineer, London  
 [GitHub](https://github.com/Joshuche22) · [LinkedIn](https://linkedin.com/in/benedict-chijindu-korie-4b29a837b) · benedictkorie785@gmail.com
+## Git Workflow
+
+This repository follows a trunk-based development workflow with branch protection enforced on `main`.
+
+- All changes are developed on feature branches (`feature/<description>`)
+- A pull request is raised and must be reviewed and approved before merging
+- Direct pushes to `main` are blocked by branch protection rules
+- Commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/) standard (`feat:`, `fix:`, `docs:`, `chore:`)
+
+This mirrors the workflow used in professional engineering teams.
