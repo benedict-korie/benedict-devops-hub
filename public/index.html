@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Benedict Korie | DevOps Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>Benedict Korie</h1>
+      <p class="tagline">DevOps & Cloud Engineer · London</p>
+      <div class="header-links">
+        <a href="https://github.com/Joshuche22" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/benedict-chijindu-korie-4b29a837b" target="_blank">LinkedIn</a>
+        <a href="mailto:benedictkorie785@gmail.com">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+
+        <div class="card featured">
+          <span class="badge">Featured</span>
+          <h3>devops-platform</h3>
+          <p>Production-grade DevOps platform — Node.js API deployed to AWS EKS via a fully automated GitHub Actions pipeline. Terraform infrastructure, OIDC auth, rolling deployments, Prometheus metrics, and a live AWS Load Balancer endpoint.</p>
+          <div class="tags">
+            <span>AWS EKS</span><span>Terraform</span><span>GitHub Actions</span><span>Docker</span><span>Kubernetes</span><span>Prometheus</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Joshuche22/devops-platform" target="_blank" class="btn">View Repo</a>
+            <a href="https://www.loom.com/share/5e6d409ccca244a6860e035de69ed058" target="_blank" class="btn btn-secondary">Watch Demo</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>aws-eks-platform</h3>
+          <p>Production-grade EKS platform with Terraform — multi-environment infrastructure, KMS encryption, IRSA, Prometheus and Grafana observability stack.</p>
+          <div class="tags">
+            <span>AWS</span><span>EKS</span><span>Terraform</span><span>Prometheus</span><span>Grafana</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Joshuche22/aws-eks-platform" target="_blank" class="btn">View Repo</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>gh-actions-demo</h3>
+          <p>Production-grade CI/CD pipeline with GitHub Actions — Trivy security scanning, Terraform validation on PRs, Docker Hub image push and automated deployment.</p>
+          <div class="tags">
+            <span>GitHub Actions</span><span>Docker</span><span>Trivy</span><span>Terraform</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Joshuche22/gh-actions-demo" target="_blank" class="btn">View Repo</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>benedict-devops-hub</h3>
+          <p>This site — a live DevOps portfolio and pipeline dashboard. Containerised with Docker, deployed automatically via GitHub Actions to Render.com on every push.</p>
+          <div class="tags">
+            <span>Node.js</span><span>Docker</span><span>GitHub Actions</span><span>Render</span>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Joshuche22/benedict-devops-hub" target="_blank" class="btn">View Repo</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="pipeline">
+      <h2>Live Pipeline Status <span class="live-dot"></span></h2>
+      <p class="pipeline-sub">Latest runs from gh-actions-demo</p>
+      <div id="pipeline-runs">Loading...</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Benedict Korie · DevOps & Cloud Engineer · London · <a href="mailto:benedictkorie785@gmail.com">benedictkorie785@gmail.com</a></p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
