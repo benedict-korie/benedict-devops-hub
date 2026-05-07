@@ -32,6 +32,7 @@ A live DevOps portfolio and pipeline dashboard built with Node.js, containerised
 Push to main → Build Docker image → Push to Docker Hub → Trigger Render deploy
 
 ## Project Structure
+```
 benedict-devops-hub/
 ├── public/
 │   ├── index.html        # Frontend layout
@@ -43,6 +44,7 @@ benedict-devops-hub/
 │   └── workflows/
 │       └── deploy.yml    # CI/CD pipeline
 └── .env                  # Local environment variables (not committed)
+```
 
 ---
 
