@@ -15,7 +15,7 @@ app.get('/api/pipeline', async (req, res) => {
   try {
     const { default: fetch } = await import('node-fetch');
     const response = await fetch(
-      'https://api.github.com/repos/Joshuche22/gh-actions-demo/actions/runs?per_page=5',
+      'https://api.github.com/repos/benedict-korie/gh-actions-demo/actions/runs?per_page=5',
       {
         headers: {
           'Authorization': `Bearer ${process.env.GITHUB_TOKEN}`,
