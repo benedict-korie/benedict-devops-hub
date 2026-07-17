@@ -1,13 +1,14 @@
 {
   "name": "benedict-devops-hub",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Live DevOps portfolio and CI/CD pipeline dashboard, built with Node.js and Express, containerised with Docker, and deployed automatically to Render.com via GitHub Actions.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["devops", "portfolio", "github-actions", "docker", "nodejs"],
+  "author": "Benedict Korie",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
